@@ -41,7 +41,8 @@ LosAngeles
 Chicago
 0
 2
-
+NewYork
+Chicago
 ```
 
 **ผลลัพธ์**:
