@@ -41,19 +41,18 @@ LosAngeles
 Chicago
 0
 2
-NewYork
-Chicago
+
 ```
 
 **ผลลัพธ์**:
 ```
 {'NewYork': (3.0, 5.0), 'LosAngeles': (1.0, 1.0), 'Chicago': (0.0, 2.0)}
-3.61
+4.24
 ```
 
 **อินพุต**:
 ```
-3
+4
 Paris
 2.5
 4.8
@@ -63,13 +62,16 @@ London
 Berlin
 0
 0
+Beijing
+10
+5
 Paris
 Madrid
 ```
 
 **ผลลัพธ์**:
 ```
-{'Paris': (2.5, 4.8), 'London': (1.2, 3.5), 'Berlin': (0.0, 0.0)}
+{'Paris': (2.5, 4.8), 'London': (1.2, 3.5), 'Berlin': (0.0, 0.0), 'Beijing': (10.0, 5.0)}
 NA
 ```
 
