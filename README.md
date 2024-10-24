@@ -31,24 +31,38 @@
 
 **อินพุต**:
 ```
-3
-NewYork
-3
 5
-LosAngeles
-1
-1
-Chicago
+Bangkok
+6
 0
-2
-NewYork
-Chicago
+ChiangMai
+1
+1
+Phuket
+0
+8
+Krabi
+3
+9
+HatYai
+-1
+1
+Bangkok
+Phuket
 ```
 
-**ผลลัพธ์**:
+**ผลลัพธ์ระยะทาง**:
 ```
-{'NewYork': (3.0, 5.0), 'LosAngeles': (1.0, 1.0), 'Chicago': (0.0, 2.0)}
-4.24
+{'Bangkok': (6.0, 0.0), 'ChiangMai': (1.0, 1.0), 'Phuket': (0.0, 8.0), 'Krabi': (3.0, 9.0), 'HatYai': (-1.0, 1.0)}
+10.0
+```
+**วิธีการคำนวณ**:
+```
+distance =  sqrt((0 - 6.0)^2 + (8.0 - 0)^2)
+         =  sqrt(6^2 + 6^2)
+         =  sqrt(36.0 + 64.0)
+         =  sqrt(100.0)
+         = 10.0
 ```
 
 **อินพุต**:
